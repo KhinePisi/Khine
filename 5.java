@@ -10,11 +10,11 @@ class Rectangle {
       width = w;
       height = h;
     }
-    void Set_width(){
-      width = 0.0;
+    void Set_width(double w){
+      width = w;
     }
-    void Set_height(){
-      height = 0.0;
+    void Set_height(double h){
+      height = h;
     }
     void Get_height(){
       System.out.println(height);
